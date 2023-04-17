@@ -32,7 +32,7 @@ def decoding(word):
 
 print("----" *7)
 word = input("Please enter your word: ").lower()
-
+print("----" *7)
 choose = input("Do you want to code or decode it?\nEnter 'c' to code or 'd' to decode: ").lower()
 
 
