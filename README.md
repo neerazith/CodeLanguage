@@ -2,12 +2,12 @@
 
 Code:   If a word has less than 3 characters the word is just reversed.
         Else
-        The first letter is moved to the last place of the word and three random alphabets are added to the start and end of the word.
+        the first letter is moved to the last place of the word and three random alphabets are added to the start and end of the word.
 
 
 Decode: If a word has less than 3 characters the word is reversed.
         Else
-        Three alphabets from the starting and ending place of the word are removed and now the last character is moved in to the first place of the word.
+        three alphabets from the starting and ending place of the word are removed and now the last character is moved in to the first place of the word.
 
 
 # Example
