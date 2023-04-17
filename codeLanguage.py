@@ -14,10 +14,7 @@ def coding(word):
         codeTwo = codeOne + firstLetter
         wordList = list(codeTwo)
         firstThree = random.choices(ALPHABETS, k=3) 
-        lastThree = random.choices(ALPHABETS, k=3) 
-        while firstThree and lastThree in wordList:
-            firstThree = random.choice(ALPHABETS, k=3)
-            lastThree = random.choices(ALPHABETS, k=3)
+        lastThree = random.choices(ALPHABETS, k=3)
         codedWord = JOINER.join(firstThree + wordList + lastThree)
     return codedWord
 
